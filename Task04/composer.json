@@ -1,0 +1,21 @@
+{
+    "name": "mih-gif/task03",
+    "description": "task03",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mih-gif",
+            "email": "mihailgoo7@yandex.ru"
+        }
+    ],
+    "require": {}
+}
