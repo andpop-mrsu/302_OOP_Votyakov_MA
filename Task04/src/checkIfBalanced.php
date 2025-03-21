@@ -1,7 +1,10 @@
 <?php
 
-function checkIfBalanced(string $expression): bool {
-    $stack = new App\Stack();
+namespace App;
+
+function checkIfBalanced(string $expression): bool
+{
+    $stack = new Stack();
     $pairs = [
         '>' => '<',
         '}' => '{',
@@ -9,7 +12,8 @@ function checkIfBalanced(string $expression): bool {
         ']' => '['
     ];
 
-    for ($i = 0; $i < strlen($expression); $i++) {
+    for ($i = 0; $i < strlen($expression); $i++) 
+    {
         $char = $expression[$i];
 
         if (in_array($char, $pairs)) {

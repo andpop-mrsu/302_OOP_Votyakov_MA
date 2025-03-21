@@ -17,5 +17,7 @@
             "email": "mihailgoo7@yandex.ru"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.12"
+    }
 }
